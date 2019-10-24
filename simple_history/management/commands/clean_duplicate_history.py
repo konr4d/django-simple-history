@@ -2,8 +2,7 @@ from django.utils import timezone
 from django.db import transaction
 
 from . import populate_history
-from ... import models, utils
-from ...exceptions import NotHistoricalModelError
+from ... import utils
 
 
 class Command(populate_history.Command):

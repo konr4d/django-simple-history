@@ -9,6 +9,11 @@ Unreleased
   `inherit=True` (backwards-incompatible for users who were directly
   using previous version) (gh-576)
 
+2.7.3.1 (2019-10-24)
+--------------------
+- Dropped support for Python 2.7.
+- Dropped support for Django 1.11.
+
 2.7.3 (2019-07-15)
 ------------------
 - Fixed BigAutoField not mirrored as BigInt (gh-556)
